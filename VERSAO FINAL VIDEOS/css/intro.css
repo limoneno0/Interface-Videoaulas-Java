@@ -1,0 +1,150 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  }
+  header {
+  background-color: #021B31;
+  color: #d9d9d9;
+  padding: 20px 0;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  }
+  header img {
+  max-height: 60px;
+  margin-left: 20px;
+  margin-right: 40px;
+  }
+  header h1 {
+  margin-right: auto;
+  margin-left: 20px;
+  background-color: #948c8c;
+  padding: 26px;
+  border-radius: 20px;
+  }
+  main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  }
+  .content {
+  flex: 1;
+  background-color: #111e4b;
+  padding: 0px;
+  }
+  #pergunta{
+  margin-top: 30px;
+  text-align: center;
+  font-size: larger;
+  color: white;
+  }
+  #pergunta2{
+  text-align: center;
+  font-size: larger;
+  color: white;
+  }
+  aside {
+  width: 30%;
+  background-color: #faf7f7;
+  padding: 10px;
+  }
+  ul {
+  list-style-type: none;
+  }
+  li{
+  margin-right: auto;
+  margin-left: 20px;
+  list-style: none;
+  font-size: 34px;
+  }
+  #piola{
+  padding: 20px;
+  border-radius: 26px;
+  color: #131a41;
+  }
+  #retornar {
+  text-decoration: none;
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  background-color: #111B4D;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+  margin-left: 10px;
+  align-self: self-start;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 270px;
+  text-decoration: none;
+  }
+  #retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: #bebebe;
+  text-decoration: none;
+  }
+  #retornar a:visited{
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  background-color: #111B4D;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+  margin-left: 10px;
+  align-self: self-start;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  }
+  #retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: #bebebe;
+  text-decoration: none;
+  }
+  #retornar a:visited{
+  text-decoration: none;
+  color: #f8f2f2;
+  }
+  #retornar a:link{
+  text-decoration: none;
+  color: #f8f2f2;
+  }
+  #btn-duvidas{
+  color: #021B31;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  margin: 0 auto;
+  cursor: pointer;
+  display: block;
+  font-size: large;
+  background-color: #d9d9d9;
+  width: 130px;
+  border-radius: 16px;
+  }
+  #aside-content{
+  max-height: 97vh;
+  overflow-y: auto;
+  font-size: 20px;
+  }
+  .rectangle {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  }
+  
+  
